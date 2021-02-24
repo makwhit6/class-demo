@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this blog",
+      "description": "Some additional details about the blog",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-02-24T10:29:09-08:00"
+    },
+    {
+      "path": "index.html",
+      "title": "This is a Blog About Pickles",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-02-24T10:29:11-08:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}

@@ -1,0 +1,30 @@
+---
+title: "Big, Little, and Medium Jars"
+description: |
+  A short description of the post.
+author:
+  - name: Makayla Whitney
+    url: https:www.github.com/makwhit6
+date: 02-24-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set()
+```
+
+Look at this awesome plot of common canning jars below!
+
+
+```{r message = FALSE}
+library(tidyverse)
+ggplot(mtcars, aes(disp, mpg)) +
+  geom_point() +
+  geom_smooth() +
+  labs(title = "A river")
+  theme(text = element_text(family = "Roboto"))
+
+```
